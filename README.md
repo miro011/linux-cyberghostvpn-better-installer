@@ -4,7 +4,7 @@
   - sudo bash ubuntu-install.sh
 - If you want to remove the need for running the cyberghostvpn command with sudo, after the install is complete run:
   - sudo visudo
-  - Append:
+  - Append to the end of the file:
     - %wheel ALL=(ALL:ALL) NOPASSWD: /usr/bin/cyberghostvpn
   - This will give all members of the wheel group sudo-less access
 - You could make your life even easier by creating some aliases. Here are some of the ones I have in my ~/.bashrc file:
