@@ -1,7 +1,7 @@
 - Put the script where the regular install.sh scirpt typically is and run it using:
-  - sudo bash fedora-install.sh
+  - sudo bash dnf-install.sh
   - or
-  - sudo bash ubuntu-install.sh
+  - sudo bash apt-install.sh
 - If you want to remove the need for running the cyberghostvpn command with sudo, after the install is complete run:
   - sudo visudo
   - Append to the end of the file:
